@@ -1,0 +1,15 @@
+C:\Users\avako\source\repos\Homework_5\Homework_5\bin\Debug\net7.0\Homework_5.exe
+C:\Users\avako\source\repos\Homework_5\Homework_5\bin\Debug\net7.0\Homework_5.deps.json
+C:\Users\avako\source\repos\Homework_5\Homework_5\bin\Debug\net7.0\Homework_5.runtimeconfig.json
+C:\Users\avako\source\repos\Homework_5\Homework_5\bin\Debug\net7.0\Homework_5.dll
+C:\Users\avako\source\repos\Homework_5\Homework_5\bin\Debug\net7.0\Homework_5.pdb
+C:\Users\avako\source\repos\Homework_5\Homework_5\obj\Debug\net7.0\Homework_5.csproj.AssemblyReference.cache
+C:\Users\avako\source\repos\Homework_5\Homework_5\obj\Debug\net7.0\Homework_5.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\avako\source\repos\Homework_5\Homework_5\obj\Debug\net7.0\Homework_5.AssemblyInfoInputs.cache
+C:\Users\avako\source\repos\Homework_5\Homework_5\obj\Debug\net7.0\Homework_5.AssemblyInfo.cs
+C:\Users\avako\source\repos\Homework_5\Homework_5\obj\Debug\net7.0\Homework_5.csproj.CoreCompileInputs.cache
+C:\Users\avako\source\repos\Homework_5\Homework_5\obj\Debug\net7.0\Homework_5.dll
+C:\Users\avako\source\repos\Homework_5\Homework_5\obj\Debug\net7.0\refint\Homework_5.dll
+C:\Users\avako\source\repos\Homework_5\Homework_5\obj\Debug\net7.0\Homework_5.pdb
+C:\Users\avako\source\repos\Homework_5\Homework_5\obj\Debug\net7.0\Homework_5.genruntimeconfig.cache
+C:\Users\avako\source\repos\Homework_5\Homework_5\obj\Debug\net7.0\ref\Homework_5.dll
