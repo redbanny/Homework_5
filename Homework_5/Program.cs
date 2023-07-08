@@ -1,4 +1,5 @@
-﻿var s = new Stack("a", "b", "c");
+﻿var ss =Stack.Concat(new Stack("a", "b", "c"), new Stack("1", "2", "3"), new Stack("А", "Б", "В"));
+var s = new Stack("a", "b", "c");
 s.Merge(new Stack("1", "2", "3"));
 // size = 3, Top = 'c'
 Console.WriteLine($"size = {s.Size}, Top = '{s.Top}'");

@@ -28,4 +28,14 @@ public class Stack
         _stack.Remove(lastItem);
         return lastItem;
     }
+
+    public static Stack Concat(params Stack[] stacks)
+    {
+        var stack = new Stack();
+        for(int i = 0; i < stacks.Length; i++)
+        {
+            stack.Merge(stacks[i]);
+        }
+        return stack;
+    }
 }
