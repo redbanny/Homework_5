@@ -46,7 +46,7 @@ namespace Stackspace
         private class StackItem
         {
             private string? value;
-            private string? previousItem;
+            private StackItem? previousItem;
             
             public string? StackItemValuec
             {
@@ -55,7 +55,7 @@ namespace Stackspace
                 }
             }
 
-            public string? PreviousItem{
+            public StackItem? PreviousItem{
                 get{
                     return previousItem;
                 }
@@ -65,7 +65,7 @@ namespace Stackspace
             {
                 value = item;
                 if(stack.Count > 0)
-                    previousItem = stack.Last().StackItemValuec;
+                    previousItem = stack.Last();
             }
         }
     }

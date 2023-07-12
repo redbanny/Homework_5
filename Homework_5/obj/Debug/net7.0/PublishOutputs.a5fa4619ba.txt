@@ -1,0 +1,5 @@
+c:\Users\GAvakov\Source\repos\Homework_5\Homework_5\bin\Debug\net7.0\publish\Homework_5.exe
+c:\Users\GAvakov\Source\repos\Homework_5\Homework_5\bin\Debug\net7.0\publish\Homework_5.dll
+c:\Users\GAvakov\Source\repos\Homework_5\Homework_5\bin\Debug\net7.0\publish\Homework_5.deps.json
+c:\Users\GAvakov\Source\repos\Homework_5\Homework_5\bin\Debug\net7.0\publish\Homework_5.runtimeconfig.json
+c:\Users\GAvakov\Source\repos\Homework_5\Homework_5\bin\Debug\net7.0\publish\Homework_5.pdb
