@@ -1,3 +1,4 @@
+using Stackspace;
 public static class StackExtensions
 {
     public static void Merge(this Stack s1, Stack s2)

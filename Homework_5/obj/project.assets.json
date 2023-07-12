@@ -8,25 +8,24 @@
     "net7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\avako\\.nuget\\packages\\": {}
+    "C:\\Users\\GAvakov\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\avako\\source\\repos\\Homework_5\\Homework_5\\Homework_5.csproj",
+      "projectUniqueName": "C:\\Users\\GAvakov\\Source\\repos\\Homework_5\\Homework_5\\Homework_5.csproj",
       "projectName": "Homework_5",
-      "projectPath": "c:\\Users\\avako\\source\\repos\\Homework_5\\Homework_5\\Homework_5.csproj",
-      "packagesPath": "C:\\Users\\avako\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\avako\\source\\repos\\Homework_5\\Homework_5\\obj\\",
+      "projectPath": "C:\\Users\\GAvakov\\Source\\repos\\Homework_5\\Homework_5\\Homework_5.csproj",
+      "packagesPath": "C:\\Users\\GAvakov\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\GAvakov\\Source\\repos\\Homework_5\\Homework_5\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\avako\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\GAvakov\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
