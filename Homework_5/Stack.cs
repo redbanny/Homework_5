@@ -2,73 +2,83 @@ namespace Stackspace
 {
     public class Stack
     {
-        private List<StackItem> _stack;
+        private StackItem _item;
+        private int _size;
 
-        public int Size{
-            get{ return _stack.Count;}
+        public int Size
+        {
+            get { return _size; }
         }
 
-        public string? Top{
-            get { return _stack.Count == 0 ? null : _stack.Last().StackItemValuec; }
+        public string? Top
+        {
+            get { return _size == 0 ? null : _item.StackItemValuec; }
         }
 
-        public Stack(){}
+        public Stack() { }
 
         public Stack(params string[] items)
         {
             for (int i = 0; i < items.Length; i++)
                 Add(items[i]);
-            
+
         }
 
-        public void Add(string item) => 
-            _stack.Add(new StackItem(item, _stack));
+        public void Add(string item)
+        {
+            StackItem newItem = new StackItem(item, _item);
+            _item = newItem;
+            _size++;
+        }
 
         public string? Pop()
         {
-            if(_stack.Count == 0)
+            if (_size == 0)
                 throw new Exception("Стек пустой");
-            var lastItem = _stack.Last();
-            _stack.Remove(lastItem);
-            return lastItem.StackItemValuec;
+            var lastItem = _item.StackItemValuec;
+            _item = _item.PreviousItem;
+            _size--;
+            return lastItem;
         }
 
         public static Stack Concat(params Stack[] stacks)
         {
             var stack = new Stack();
-            for(int i = 0; i < stacks.Length; i++)
+            for (int i = 0; i < stacks.Length; i++)
             {
                 stack.Merge(stacks[i]);
             }
             return stack;
         }
-
-        private class StackItem
-        {
-            private string? value;
-            private StackItem? previousItem;
-            
-            public string? StackItemValuec
-            {
-                get {
-                    return value;
-                }
-            }
-
-            public StackItem? PreviousItem{
-                get{
-                    return previousItem;
-                }
-            }
-
-            public StackItem(string item, List<StackItem> stack)
-            {
-                value = item;
-                if(stack.Count > 0)
-                    previousItem = stack.Last();
-            }
-        }
     }
 
-    
+    class StackItem
+    {
+        private string? value;
+        private StackItem? previousItem;
+
+        public string? StackItemValuec
+        {
+            get
+            {
+                return value;
+            }
+        }
+
+        public StackItem? PreviousItem
+        {
+            get
+            {
+                return previousItem;
+            }
+        }
+
+        public StackItem(string item, StackItem? stackItem)
+        {
+            value = item;
+            previousItem = stackItem;
+        }
+    }
 }
+
+
