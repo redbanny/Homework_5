@@ -2,7 +2,7 @@ namespace Stackspace
 {
     public class Stack
     {
-        private List<StackItem> _stack = new();
+        private List<StackItem> _stack;
 
         public int Size{
             get{ return _stack.Count;}
